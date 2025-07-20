@@ -1,0 +1,106 @@
+
+        <!DOCTYPE html>
+        <html>
+        <head>
+            <meta charset="UTF-8">
+            <title>频率词统计报告</title>
+            <style>
+                body { font-family: Arial, sans-serif; margin: 20px; }
+                h1, h2 { color: #333; }
+                table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+                th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+                th { background-color: #f2f2f2; }
+                tr:nth-child(even) { background-color: #f9f9f9; }
+                .word { font-weight: bold; }
+                .count { text-align: center; }
+                .percentage { text-align: center; }
+                .titles { max-width: 500px; }
+                .source { color: #666; font-style: italic; }
+                .error { color: #d9534f; }
+                .news-link { 
+                    color: #007bff; 
+                    text-decoration: none; 
+                    border-bottom: 1px dotted #007bff;
+                }
+                .news-link:hover { 
+                    color: #0056b3; 
+                    text-decoration: underline; 
+                }
+                .news-link:visited { 
+                    color: #6f42c1; 
+                }
+                .no-link { 
+                    color: #333; 
+                }
+                .new-title {
+                    background-color: #fff3cd;
+                    border: 1px solid #ffc107;
+                    border-radius: 3px;
+                    padding: 2px 6px;
+                    margin: 2px 0;
+                }
+                .new-section {
+                    background-color: #d1ecf1;
+                    border: 1px solid #bee5eb;
+                    border-radius: 5px;
+                    padding: 10px;
+                    margin-top: 10px;
+                }
+                .new-section h3 {
+                    color: #0c5460;
+                    margin-top: 0;
+                }
+            </style>
+        </head>
+        <body>
+            <h1>频率词统计报告</h1>
+        <p>总标题数: 255</p><p>生成时间: 2025-07-20 18:56:33</p>
+            <table>
+                <tr>
+                    <th>排名</th>
+                    <th>频率词</th>
+                    <th>出现次数</th>
+                    <th>占比</th>
+                    <th>相关标题</th>
+                </tr>
+        
+                <tr>
+                    <td>1</td>
+                    <td class="word">特朗普</td>
+                    <td class="count">5</td>
+                    <td class="percentage">1.96%</td>
+                    <td class="titles">[凤凰网] <a href="https://news.ifeng.com/c/8l94FeNZwCW" target="_blank" class="news-link">奥巴马政府曾伪造特朗普通俄材料</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 18时56分</font><br>[tieba] <a href="https://tieba.baidu.com/hottopic/browse/hottopic?topic_id=28343609&amp;amp;topic_name=MAGA%E5%AF%B9%E7%89%B9%E6%9C%97%E6%99%AE%E4%BF%A1%E4%BB%BB%E5%B4%A9%E5%A1%8C" target="_blank" class="news-link">MAGA对特朗普信任崩塌</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 18时56分</font><br>[华尔街见闻] <a href="https://wallstreetcn.com/articles/3751478" target="_blank" class="news-link">开除鲍威尔？在特朗普政府内部，贝森特是关键反对者，且“有理有据”</a> [6] <font color='grey'>- 18时56分</font><br>[财联社热门] <a href="https://www.cls.cn/detail/2090138" target="_blank" class="news-link">特朗普：印巴冲突期间 五架战机被击落</a> [12] <font color='grey'>- 18时56分</font><br>[tieba] <a href="https://tieba.baidu.com/hottopic/browse/hottopic?topic_id=28343584&amp;amp;topic_name=%E7%88%B1%E6%B3%BC%E6%96%AF%E5%9D%A6%E6%A1%88%E5%8D%87%E6%B8%A9%EF%BC%81%E7%89%B9%E6%9C%97%E6%99%AE%E8%B5%B7%E8%AF%89%E9%BB%98%E5%A4%9A%E5%85%8B" target="_blank" class="news-link">爱泼斯坦案升温！特朗普起诉默多克</a> [28] <font color='grey'>- 18时56分</font></td>
+                </tr>
+            
+                <tr>
+                    <td>2</td>
+                    <td class="word">ai 人工智能</td>
+                    <td class="count">4</td>
+                    <td class="percentage">1.57%</td>
+                    <td class="titles">[华尔街见闻] <a href="https://wallstreetcn.com/articles/3751472" target="_blank" class="news-link">摩根大通首份非上市公司深度报告：OpenAI的“王座”与“枷锁”</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 18时56分</font><br>[财联社热门] <a href="https://www.cls.cn/detail/2090310" target="_blank" class="news-link">盘中创历史新高A股名单一览：多只AI硬件、创新药概念股在列</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 18时56分</font><br>[华尔街见闻] <a href="https://wallstreetcn.com/articles/3751475" target="_blank" class="news-link">OpenAI神秘新模型斩获IMO 2025金牌！攻克奥数巅峰，硅谷沸腾</a> [7] <font color='grey'>- 18时56分</font><br>[华尔街见闻] <a href="https://wallstreetcn.com/premium/articles/3751473?layout=wscn-layout" target="_blank" class="news-link">英伟达黄仁勋“密会”的AI赚钱明星 究竟是何方神圣？</a> [10] <font color='grey'>- 18时56分</font></td>
+                </tr>
+            
+                <tr>
+                    <td>3</td>
+                    <td class="word">马斯克 特斯拉</td>
+                    <td class="count">1</td>
+                    <td class="percentage">0.39%</td>
+                    <td class="titles"><div class='new-title'>🆕 [华尔街见闻] <a href="https://wallstreetcn.com/articles/3751400" target="_blank" class="news-link">下周重磅日程：谷歌、特斯拉开启Mag 7财报季、日本上院选举结果、世界人工智能大会</a> [8] <font color='grey'>- 18时56分</font></div></td>
+                </tr>
+            
+                <tr>
+                    <td>4</td>
+                    <td class="word">汽车 自动驾驶</td>
+                    <td class="count">1</td>
+                    <td class="percentage">0.39%</td>
+                    <td class="titles">[财联社热门] <a href="https://www.cls.cn/detail/2090086" target="_blank" class="news-link">【早报】三部门最新部署！规范新能源汽车产业竞争秩序；美对中国阳极级石墨征收93.5%反倾销税，外交部回应</a> [9] <font color='grey'>- 18时56分</font></td>
+                </tr>
+            
+            </table>
+        
+            <div class="new-section">
+                <h3>🆕 本次新增热点新闻 (共 1 条)</h3>
+            <h4>华尔街见闻 (1 条)</h4><ul><li><a href="https://wallstreetcn.com/articles/3751400" target="_blank" class="news-link">下周重磅日程：谷歌、特斯拉开启Mag 7财报季、日本上院选举结果、世界人工智能大会</a> [8]</li></ul></div>
+        </body>
+        </html>
+        
