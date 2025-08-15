@@ -1,0 +1,106 @@
+
+        <!DOCTYPE html>
+        <html>
+        <head>
+            <meta charset="UTF-8">
+            <title>频率词统计报告</title>
+            <style>
+                body { font-family: Arial, sans-serif; margin: 20px; }
+                h1, h2 { color: #333; }
+                table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+                th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+                th { background-color: #f2f2f2; }
+                tr:nth-child(even) { background-color: #f9f9f9; }
+                .word { font-weight: bold; }
+                .count { text-align: center; }
+                .percentage { text-align: center; }
+                .titles { max-width: 500px; }
+                .source { color: #666; font-style: italic; }
+                .error { color: #d9534f; }
+                .news-link { 
+                    color: #007bff; 
+                    text-decoration: none; 
+                    border-bottom: 1px dotted #007bff;
+                }
+                .news-link:hover { 
+                    color: #0056b3; 
+                    text-decoration: underline; 
+                }
+                .news-link:visited { 
+                    color: #6f42c1; 
+                }
+                .no-link { 
+                    color: #333; 
+                }
+                .new-title {
+                    background-color: #fff3cd;
+                    border: 1px solid #ffc107;
+                    border-radius: 3px;
+                    padding: 2px 6px;
+                    margin: 2px 0;
+                }
+                .new-section {
+                    background-color: #d1ecf1;
+                    border: 1px solid #bee5eb;
+                    border-radius: 5px;
+                    padding: 10px;
+                    margin-top: 10px;
+                }
+                .new-section h3 {
+                    color: #0c5460;
+                    margin-top: 0;
+                }
+            </style>
+        </head>
+        <body>
+            <h1>频率词统计报告</h1>
+        <p>总标题数: 255</p><p>生成时间: 2025-08-15 20:49:44</p>
+            <table>
+                <tr>
+                    <th>排名</th>
+                    <th>频率词</th>
+                    <th>出现次数</th>
+                    <th>占比</th>
+                    <th>相关标题</th>
+                </tr>
+        
+                <tr>
+                    <td>1</td>
+                    <td class="word">特朗普</td>
+                    <td class="count">8</td>
+                    <td class="percentage">3.14%</td>
+                    <td class="titles">[今日头条] <a href="https://www.toutiao.com/trending/7538307998842916394/" target="_blank" class="news-link">特朗普将以最高礼仪亲自迎接普京</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 20时49分</font><br><div class='new-title'>🆕 [百度热搜] <a href="https://www.baidu.com/s?wd=%E7%89%B9%E6%9C%97%E6%99%AE%E5%B0%86%E4%BB%A5%E6%9C%80%E9%AB%98%E7%A4%BC%E4%BB%AA%E4%BA%B2%E8%87%AA%E8%BF%8E%E6%8E%A5%E6%99%AE%E4%BA%AC" target="_blank" class="news-link">特朗普将以最高礼仪亲自迎接普京</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 20时49分</font></div><br>[百度热搜] <a href="https://www.baidu.com/s?wd=%E6%99%AE%E4%BA%AC%E7%89%B9%E6%9C%97%E6%99%AE%E4%BC%9A%E8%B0%88%E5%9C%B0%E6%95%B0%E7%99%BE%E7%89%B9%E5%B7%A5%E5%85%A5%E9%A9%BB" target="_blank" class="news-link">普京特朗普会谈地数百特工入驻</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 20时49分</font><br>[douyin] <a href="https://www.douyin.com/hot/2204535" target="_blank" class="news-link">美媒：特朗普将亲自迎接普京</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 20时49分</font><br>[zhihu] <a href="https://www.zhihu.com/question/1939617359045333542" target="_blank" class="news-link">特朗普政府欲入股英特尔，一边是英伟达等的「特许经营」抽成，一边是芯片国企化的可能，对此你怎么看？</a> [7] <font color='grey'>- 20时49分</font><br>[财联社热门] <a href="https://www.cls.cn/detail/2116205" target="_blank" class="news-link">白宫公布美俄会晤特朗普最新行程安排</a> [8] <font color='grey'>- 20时49分</font><br>[澎湃新闻] <a href="https://m.thepaper.cn/newsDetail_forward_31403319" target="_blank" class="news-link">特朗普连说两遍：如果我不是总统，普京早就占领整个乌克兰了</a> [13] <font color='grey'>- 20时49分</font><br>[今日头条] <a href="https://www.toutiao.com/trending/7538661696978570803/" target="_blank" class="news-link">特朗普：要不是我普京早就吞并乌克兰</a> [20] <font color='grey'>- 20时49分</font></td>
+                </tr>
+            
+                <tr>
+                    <td>2</td>
+                    <td class="word">机器人</td>
+                    <td class="count">5</td>
+                    <td class="percentage">1.96%</td>
+                    <td class="titles">[今日头条] <a href="https://www.toutiao.com/trending/7538673646475477034/" target="_blank" class="news-link">宇树机器人狂奔撞翻友商真人操控员</a> [12] <font color='grey'>- 20时49分</font><br>[bilibili 热搜] <a href="https://search.bilibili.com/all?keyword=%E5%AE%87%E6%A0%91%E8%8E%B7%E6%9C%BA%E5%99%A8%E4%BA%BA%E8%BF%90%E5%8A%A8%E4%BC%9A1500%E7%B1%B3%E5%86%A0%E5%86%9B" target="_blank" class="news-link">宇树获机器人运动会1500米冠军</a> [13] <font color='grey'>- 20时49分</font><br>[bilibili 热搜] <a href="https://search.bilibili.com/all?keyword=%E5%AE%87%E6%A0%91%E9%A6%96%E9%87%91%E6%9C%BA%E5%99%A8%E4%BA%BA%E6%92%9E%E4%BA%BA%E9%80%83%E9%80%B8%E7%8E%B0%E5%9C%BA" target="_blank" class="news-link">宇树首金机器人撞人逃逸现场</a> [17] <font color='grey'>- 20时49分</font><br><div class='new-title'>🆕 [今日头条] <a href="https://www.toutiao.com/trending/7538778017204604454/" target="_blank" class="news-link">宇树机器人夺冠技术人员激动落泪</a> [23] <font color='grey'>- 20时49分</font></div><br>[bilibili 热搜] <a href="https://search.bilibili.com/all?keyword=%E6%9C%BA%E5%99%A8%E4%BA%BA%E5%9C%A8%E5%8F%96%E4%BB%A3%E4%BA%BA%E7%B1%BB%E5%90%97" target="_blank" class="news-link">机器人在取代人类吗</a> [30] <font color='grey'>- 20时49分</font></td>
+                </tr>
+            
+                <tr>
+                    <td>3</td>
+                    <td class="word">ai 人工智能</td>
+                    <td class="count">1</td>
+                    <td class="percentage">0.39%</td>
+                    <td class="titles">[华尔街见闻] <a href="https://wallstreetcn.com/articles/3753372" target="_blank" class="news-link">段永平Q2豪赌AI：谷歌持仓暴增75%，英伟达加仓近50%，同时加仓苹果、拼多多</a> [6] <font color='grey'>- 20时49分</font></td>
+                </tr>
+            
+                <tr>
+                    <td>4</td>
+                    <td class="word">汽车 自动驾驶</td>
+                    <td class="count">1</td>
+                    <td class="percentage">0.39%</td>
+                    <td class="titles"><div class='new-title'>🆕 [bilibili 热搜] <a href="https://search.bilibili.com/all?keyword=%E5%B2%9A%E5%9B%BE%E6%B1%BD%E8%BD%A6CEO%E5%85%A5%E9%A9%BBB%E7%AB%99" target="_blank" class="news-link">岚图汽车CEO入驻B站</a> [7] <font color='grey'>- 20时49分</font></div></td>
+                </tr>
+            
+            </table>
+        
+            <div class="new-section">
+                <h3>🆕 本次新增热点新闻 (共 3 条)</h3>
+            <h4>今日头条 (1 条)</h4><ul><li><a href="https://www.toutiao.com/trending/7538778017204604454/" target="_blank" class="news-link">宇树机器人夺冠技术人员激动落泪</a> [23]</li></ul><h4>百度热搜 (1 条)</h4><ul><li><a href="https://www.baidu.com/s?wd=%E7%89%B9%E6%9C%97%E6%99%AE%E5%B0%86%E4%BB%A5%E6%9C%80%E9%AB%98%E7%A4%BC%E4%BB%AA%E4%BA%B2%E8%87%AA%E8%BF%8E%E6%8E%A5%E6%99%AE%E4%BA%AC" target="_blank" class="news-link">特朗普将以最高礼仪亲自迎接普京</a> <font color='red'><strong>[1]</strong></font></li></ul><h4>bilibili 热搜 (1 条)</h4><ul><li><a href="https://search.bilibili.com/all?keyword=%E5%B2%9A%E5%9B%BE%E6%B1%BD%E8%BD%A6CEO%E5%85%A5%E9%A9%BBB%E7%AB%99" target="_blank" class="news-link">岚图汽车CEO入驻B站</a> [7]</li></ul></div>
+        </body>
+        </html>
+        
