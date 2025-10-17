@@ -1,0 +1,98 @@
+
+        <!DOCTYPE html>
+        <html>
+        <head>
+            <meta charset="UTF-8">
+            <title>频率词统计报告</title>
+            <style>
+                body { font-family: Arial, sans-serif; margin: 20px; }
+                h1, h2 { color: #333; }
+                table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+                th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+                th { background-color: #f2f2f2; }
+                tr:nth-child(even) { background-color: #f9f9f9; }
+                .word { font-weight: bold; }
+                .count { text-align: center; }
+                .percentage { text-align: center; }
+                .titles { max-width: 500px; }
+                .source { color: #666; font-style: italic; }
+                .error { color: #d9534f; }
+                .news-link { 
+                    color: #007bff; 
+                    text-decoration: none; 
+                    border-bottom: 1px dotted #007bff;
+                }
+                .news-link:hover { 
+                    color: #0056b3; 
+                    text-decoration: underline; 
+                }
+                .news-link:visited { 
+                    color: #6f42c1; 
+                }
+                .no-link { 
+                    color: #333; 
+                }
+                .new-title {
+                    background-color: #fff3cd;
+                    border: 1px solid #ffc107;
+                    border-radius: 3px;
+                    padding: 2px 6px;
+                    margin: 2px 0;
+                }
+                .new-section {
+                    background-color: #d1ecf1;
+                    border: 1px solid #bee5eb;
+                    border-radius: 5px;
+                    padding: 10px;
+                    margin-top: 10px;
+                }
+                .new-section h3 {
+                    color: #0c5460;
+                    margin-top: 0;
+                }
+            </style>
+        </head>
+        <body>
+            <h1>频率词统计报告</h1>
+        <p>总标题数: 254</p><p>生成时间: 2025-10-17 21:19:48</p>
+            <table>
+                <tr>
+                    <th>排名</th>
+                    <th>频率词</th>
+                    <th>出现次数</th>
+                    <th>占比</th>
+                    <th>相关标题</th>
+                </tr>
+        
+                <tr>
+                    <td>1</td>
+                    <td class="word">特朗普</td>
+                    <td class="count">7</td>
+                    <td class="percentage">2.76%</td>
+                    <td class="titles">[凤凰网] <a href="https://news.ifeng.com/c/8nWeYYSYxvH" target="_blank" class="news-link">特朗普：美国也需要，不能把家底掏空</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 21时19分</font><br>[凤凰网] <a href="https://news.ifeng.com/c/8nWlNWrEz3l" target="_blank" class="news-link">美俄讨论美供乌“战斧”，特朗普：普京不高兴</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 21时19分</font><br>[今日头条] <a href="https://www.toutiao.com/trending/7561736617245838889/" target="_blank" class="news-link">泽连斯基可能得再次从头说服特朗普</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 21时19分</font><br>[zhihu] <a href="https://www.zhihu.com/question/1962439324869047516" target="_blank" class="news-link">俄美总统通话 2.5 小时，普京正告特朗普「战斧」不会改变俄乌战局，双方还谈了什么？释放哪些信号？</a> [6] <font color='grey'>- 21时19分</font><br>[华尔街见闻] <a href="https://wallstreetcn.com/articles/3757333" target="_blank" class="news-link">俄方发起、长2.5小时，俄美总统时隔近两月再通话，特朗普将与普京在布达佩斯会面</a> [9] <font color='grey'>- 21时19分</font><br>[澎湃新闻] <a href="https://m.thepaper.cn/newsDetail_forward_31796058" target="_blank" class="news-link">俄美峰会地点定了！俄方公布13点普京特朗普通话成果，释放何信号？</a> [10] <font color='grey'>- 21时19分</font><br>[douyin] <a href="https://www.douyin.com/hot/2272619" target="_blank" class="news-link">普京特朗普通话细节</a> [17] <font color='grey'>- 21时19分</font></td>
+                </tr>
+            
+                <tr>
+                    <td>2</td>
+                    <td class="word">ai 人工智能</td>
+                    <td class="count">5</td>
+                    <td class="percentage">1.97%</td>
+                    <td class="titles">[zhihu] <a href="https://www.zhihu.com/question/1957708491813783087" target="_blank" class="news-link">为什么 AI 生成的回答会动不动就喜欢分点和总结？</a> [9] <font color='grey'>- 21时19分</font><br>[bilibili 热搜] <a href="https://search.bilibili.com/all?keyword=%E5%9B%BD%E8%A1%8CiPhone%20Air%E4%B8%8A%E6%89%8B%E4%BD%93%E9%AA%8C" target="_blank" class="news-link">国行iPhone Air上手体验</a> [12] <font color='grey'>- 21时19分</font><br><div class='new-title'>🆕 [zhihu] <a href="https://www.zhihu.com/question/1962231054061498522" target="_blank" class="news-link">最近你写的代码里，有多大比例是 AI 帮你搞定的？</a> [15] <font color='grey'>- 21时19分</font></div><br>[bilibili 热搜] <a href="https://search.bilibili.com/all?keyword=%E8%B6%85%E8%96%84iPhoneAir%E7%BB%AD%E8%88%AA%E5%A6%82%E4%BD%95" target="_blank" class="news-link">超薄iPhoneAir续航如何</a> [22] <font color='grey'>- 21时19分</font><br>[bilibili 热搜] <a href="https://search.bilibili.com/all?keyword=%E5%9B%BD%E8%A1%8CiPhone%20Air%E6%B5%8B%E8%AF%84" target="_blank" class="news-link">国行iPhone Air测评</a> [25] <font color='grey'>- 21时19分</font></td>
+                </tr>
+            
+                <tr>
+                    <td>3</td>
+                    <td class="word">汽车 自动驾驶</td>
+                    <td class="count">2</td>
+                    <td class="percentage">0.79%</td>
+                    <td class="titles">[澎湃新闻] <a href="https://m.thepaper.cn/newsDetail_forward_31796762" target="_blank" class="news-link">市场监管总局：建立并推动实施新能源汽车火灾事故企业报告制度，加大新型缺陷问题召回监管力度</a> [7] <font color='grey'>- 21时19分</font><br>[bilibili 热搜] <a href="https://search.bilibili.com/all?keyword=%E6%96%B0%E8%83%BD%E6%BA%90%E6%B1%BD%E8%BD%A6%E7%81%AB%E7%81%BE%E4%BA%8B%E6%95%85%E4%BC%81%E4%B8%9A%E6%8A%A5%E5%91%8A%E5%88%B6%E5%BA%A6" target="_blank" class="news-link">新能源汽车火灾事故企业报告制度</a> [10] <font color='grey'>- 21时19分</font></td>
+                </tr>
+            
+            </table>
+        
+            <div class="new-section">
+                <h3>🆕 本次新增热点新闻 (共 1 条)</h3>
+            <h4>zhihu (1 条)</h4><ul><li><a href="https://www.zhihu.com/question/1962231054061498522" target="_blank" class="news-link">最近你写的代码里，有多大比例是 AI 帮你搞定的？</a> [15]</li></ul></div>
+        </body>
+        </html>
+        
