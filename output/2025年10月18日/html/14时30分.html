@@ -1,0 +1,106 @@
+
+        <!DOCTYPE html>
+        <html>
+        <head>
+            <meta charset="UTF-8">
+            <title>频率词统计报告</title>
+            <style>
+                body { font-family: Arial, sans-serif; margin: 20px; }
+                h1, h2 { color: #333; }
+                table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+                th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+                th { background-color: #f2f2f2; }
+                tr:nth-child(even) { background-color: #f9f9f9; }
+                .word { font-weight: bold; }
+                .count { text-align: center; }
+                .percentage { text-align: center; }
+                .titles { max-width: 500px; }
+                .source { color: #666; font-style: italic; }
+                .error { color: #d9534f; }
+                .news-link { 
+                    color: #007bff; 
+                    text-decoration: none; 
+                    border-bottom: 1px dotted #007bff;
+                }
+                .news-link:hover { 
+                    color: #0056b3; 
+                    text-decoration: underline; 
+                }
+                .news-link:visited { 
+                    color: #6f42c1; 
+                }
+                .no-link { 
+                    color: #333; 
+                }
+                .new-title {
+                    background-color: #fff3cd;
+                    border: 1px solid #ffc107;
+                    border-radius: 3px;
+                    padding: 2px 6px;
+                    margin: 2px 0;
+                }
+                .new-section {
+                    background-color: #d1ecf1;
+                    border: 1px solid #bee5eb;
+                    border-radius: 5px;
+                    padding: 10px;
+                    margin-top: 10px;
+                }
+                .new-section h3 {
+                    color: #0c5460;
+                    margin-top: 0;
+                }
+            </style>
+        </head>
+        <body>
+            <h1>频率词统计报告</h1>
+        <p>总标题数: 255</p><p>生成时间: 2025-10-18 14:30:45</p>
+            <table>
+                <tr>
+                    <th>排名</th>
+                    <th>频率词</th>
+                    <th>出现次数</th>
+                    <th>占比</th>
+                    <th>相关标题</th>
+                </tr>
+        
+                <tr>
+                    <td>1</td>
+                    <td class="word">特朗普</td>
+                    <td class="count">8</td>
+                    <td class="percentage">3.14%</td>
+                    <td class="titles">[凤凰网] <a href="https://news.ifeng.com/c/8nXp14yHS6o" target="_blank" class="news-link">特朗普罕见承认，高关税威胁中国的策略不可持续</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 14时30分</font><br>[今日头条] <a href="https://www.toutiao.com/trending/7561736617245838889/" target="_blank" class="news-link">泽连斯基可能得再次从头说服特朗普</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 14时30分</font><br>[财联社热门] <a href="https://www.cls.cn/detail/2173372" target="_blank" class="news-link">特朗普与泽连斯基再度会面：希望能在不动用“战斧”的情况下结束冲突</a> [6] <font color='grey'>- 14时30分</font><br>[凤凰网] <a href="https://news.ifeng.com/c/8nXp14yHSEN" target="_blank" class="news-link">可怜的泽连斯基，又被特朗普戏弄了</a> [6] <font color='grey'>- 14时30分</font><br>[凤凰网] <a href="https://news.ifeng.com/c/8nXoNWTk2lG" target="_blank" class="news-link">特朗普：美或不提供“战斧”、排除美俄乌三方会晤</a> [7] <font color='grey'>- 14时30分</font><br>[凤凰网] <a href="https://news.ifeng.com/c/8nXtfp1w62H" target="_blank" class="news-link">乌消息人士：泽连斯基向特朗普展示了俄境内潜在打击目标地图</a> [8] <font color='grey'>- 14时30分</font><br>[今日头条] <a href="https://www.toutiao.com/trending/7562386513762192937/" target="_blank" class="news-link">特朗普为何在对华关税问题上态度变软</a> [17] <font color='grey'>- 14时30分</font><br>[澎湃新闻] <a href="https://m.thepaper.cn/newsDetail_forward_31801773" target="_blank" class="news-link">泽连斯基称愿意接受双边或三边会谈，特朗普称俄乌冲突应结束</a> [17] <font color='grey'>- 14时30分</font></td>
+                </tr>
+            
+                <tr>
+                    <td>2</td>
+                    <td class="word">ai 人工智能</td>
+                    <td class="count">1</td>
+                    <td class="percentage">0.39%</td>
+                    <td class="titles">[bilibili 热搜] <a href="https://search.bilibili.com/all?keyword=%E9%99%88%E5%A4%A9%E6%A1%A5%E7%94%A8AIGC%E4%BA%B2%E8%AF%89%E8%84%91%E7%A7%91%E5%AD%A6%E7%A7%91%E6%99%AE" target="_blank" class="news-link">陈天桥用AIGC亲诉脑科学科普</a> [29] <font color='grey'>- 14时30分</font></td>
+                </tr>
+            
+                <tr>
+                    <td>3</td>
+                    <td class="word">汽车 自动驾驶</td>
+                    <td class="count">1</td>
+                    <td class="percentage">0.39%</td>
+                    <td class="titles">[zhihu] <a href="https://www.zhihu.com/question/1962472359094118354" target="_blank" class="news-link">比亚迪宣布召回部分唐和元 Pro 汽车，此次召回将给品牌后期销量带来哪些影响？</a> [7] <font color='grey'>- 14时30分</font></td>
+                </tr>
+            
+                <tr>
+                    <td>4</td>
+                    <td class="word">芯片 半导体 光刻机</td>
+                    <td class="count">1</td>
+                    <td class="percentage">0.39%</td>
+                    <td class="titles"><div class='new-title'>🆕 [今日头条] <a href="https://www.toutiao.com/trending/7562400627268013607/" target="_blank" class="news-link">欧洲车企呼吁解决芯片供应问题</a> [30] <font color='grey'>- 14时30分</font></div></td>
+                </tr>
+            
+            </table>
+        
+            <div class="new-section">
+                <h3>🆕 本次新增热点新闻 (共 1 条)</h3>
+            <h4>今日头条 (1 条)</h4><ul><li><a href="https://www.toutiao.com/trending/7562400627268013607/" target="_blank" class="news-link">欧洲车企呼吁解决芯片供应问题</a> [30]</li></ul></div>
+        </body>
+        </html>
+        
