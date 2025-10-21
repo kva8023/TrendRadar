@@ -1,0 +1,106 @@
+
+        <!DOCTYPE html>
+        <html>
+        <head>
+            <meta charset="UTF-8">
+            <title>频率词统计报告</title>
+            <style>
+                body { font-family: Arial, sans-serif; margin: 20px; }
+                h1, h2 { color: #333; }
+                table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+                th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+                th { background-color: #f2f2f2; }
+                tr:nth-child(even) { background-color: #f9f9f9; }
+                .word { font-weight: bold; }
+                .count { text-align: center; }
+                .percentage { text-align: center; }
+                .titles { max-width: 500px; }
+                .source { color: #666; font-style: italic; }
+                .error { color: #d9534f; }
+                .news-link { 
+                    color: #007bff; 
+                    text-decoration: none; 
+                    border-bottom: 1px dotted #007bff;
+                }
+                .news-link:hover { 
+                    color: #0056b3; 
+                    text-decoration: underline; 
+                }
+                .news-link:visited { 
+                    color: #6f42c1; 
+                }
+                .no-link { 
+                    color: #333; 
+                }
+                .new-title {
+                    background-color: #fff3cd;
+                    border: 1px solid #ffc107;
+                    border-radius: 3px;
+                    padding: 2px 6px;
+                    margin: 2px 0;
+                }
+                .new-section {
+                    background-color: #d1ecf1;
+                    border: 1px solid #bee5eb;
+                    border-radius: 5px;
+                    padding: 10px;
+                    margin-top: 10px;
+                }
+                .new-section h3 {
+                    color: #0c5460;
+                    margin-top: 0;
+                }
+            </style>
+        </head>
+        <body>
+            <h1>频率词统计报告</h1>
+        <p>总标题数: 255</p><p>生成时间: 2025-10-21 21:34:39</p>
+            <table>
+                <tr>
+                    <th>排名</th>
+                    <th>频率词</th>
+                    <th>出现次数</th>
+                    <th>占比</th>
+                    <th>相关标题</th>
+                </tr>
+        
+                <tr>
+                    <td>1</td>
+                    <td class="word">特朗普</td>
+                    <td class="count">11</td>
+                    <td class="percentage">4.31%</td>
+                    <td class="titles">[财联社热门] <a href="https://www.cls.cn/detail/2175678" target="_blank" class="news-link">特朗普称将于明年初访问中国 外交部回应</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 21时34分</font><br>[凤凰网] <a href="https://news.ifeng.com/c/8ndKqS7uUk7" target="_blank" class="news-link">特朗普称将于明年初访华，外交部回应</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 21时34分</font><br>[今日头条] <a href="https://www.toutiao.com/trending/7563338600507768851/" target="_blank" class="news-link">外交部回应特朗普称将于明年访华</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 21时34分</font><br>[凤凰网] <a href="https://news.ifeng.com/c/8ndC4A073jf" target="_blank" class="news-link">特朗普：很快将访问日本</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 21时34分</font><br><div class='new-title'>🆕 [bilibili 热搜] <a href="https://search.bilibili.com/all?keyword=%E7%89%B9%E6%9C%97%E6%99%AE%E6%B3%BD%E8%BF%9E%E6%96%AF%E5%9F%BA%E4%B8%BA%E4%BD%95%E5%86%8D%E5%BA%A6%E4%BA%89%E5%90%B5" target="_blank" class="news-link">特朗普泽连斯基为何再度争吵</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 21时34分</font></div><br>[凤凰网] <a href="https://news.ifeng.com/c/8ndHuKciB2U" target="_blank" class="news-link">特朗普又改口：从未说过乌克兰会赢</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 21时34分</font><br>[douyin] <a href="https://www.douyin.com/hot/2277574" target="_blank" class="news-link">中方回应特朗普称明年将访华</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 21时34分</font><br>[百度热搜] <a href="https://www.baidu.com/s?wd=%E5%A4%96%E4%BA%A4%E9%83%A8%E5%9B%9E%E5%BA%94%E7%89%B9%E6%9C%97%E6%99%AE%E7%A7%B0%E5%B0%86%E4%BA%8E%E6%98%8E%E5%B9%B4%E5%88%9D%E8%AE%BF%E5%8D%8E" target="_blank" class="news-link">外交部回应特朗普称将于明年初访华</a> [7] <font color='grey'>- 21时34分</font><br>[澎湃新闻] <a href="https://m.thepaper.cn/newsDetail_forward_31813291" target="_blank" class="news-link">释疑｜俄美要连起来了？俄方提议花8年打通“普京-特朗普”隧道有谱吗？</a> [13] <font color='grey'>- 21时34分</font><br>[tieba] <a href="https://tieba.baidu.com/hottopic/browse/hottopic?topic_id=28345976&amp;amp;topic_name=%E7%89%B9%E6%9C%97%E6%99%AE%E5%BC%80%E9%A3%9E%E6%9C%BA%E6%B3%BC%E7%B2%AA%2C%E7%BE%8E%E5%9B%BD%E5%86%8D%E6%AC%A1%E5%91%B3%E5%A4%A7" target="_blank" class="news-link">特朗普开飞机泼粪,美国再次味大</a> [18] <font color='grey'>- 21时34分</font><br>[今日头条] <a href="https://www.toutiao.com/trending/7563610173114158601/" target="_blank" class="news-link">评论员：泽连斯基再度被特朗普侮辱</a> [21] <font color='grey'>- 21时34分</font></td>
+                </tr>
+            
+                <tr>
+                    <td>2</td>
+                    <td class="word">DeepSeek</td>
+                    <td class="count">4</td>
+                    <td class="percentage">1.57%</td>
+                    <td class="titles">[华尔街见闻] <a href="https://wallstreetcn.com/articles/3757552" target="_blank" class="news-link">DeepSeek OCR论文引爆网络！Andrej Karpathy：我很喜欢；马斯克：未来99%都是光子</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 21时34分</font><br>[华尔街见闻] <a href="https://wallstreetcn.com/articles/3757530" target="_blank" class="news-link">DeepSeek新模型被硅谷夸疯了！用二维视觉压缩一维文字，单GPU能跑，“谷歌核心机密被开源”</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 21时34分</font><br><div class='new-title'>🆕 [bilibili 热搜] <a href="https://search.bilibili.com/all?keyword=DeepSeek%E6%9A%82%E5%88%97AI%E7%82%92%E5%B8%81%E5%A4%A7%E8%B5%9B%E6%A6%9C%E9%A6%96" target="_blank" class="news-link">DeepSeek暂列AI炒币大赛榜首</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 21时34分</font></div><br>[bilibili 热搜] <a href="https://search.bilibili.com/all?keyword=DeepSeek%E6%96%B0%E6%A8%A1%E5%9E%8B%E6%B7%B1%E5%BA%A6%E8%A7%A3%E8%AF%BB" target="_blank" class="news-link">DeepSeek新模型深度解读</a> [15] <font color='grey'>- 21时34分</font></td>
+                </tr>
+            
+                <tr>
+                    <td>3</td>
+                    <td class="word">ai 人工智能</td>
+                    <td class="count">2</td>
+                    <td class="percentage">0.78%</td>
+                    <td class="titles">[澎湃新闻] <a href="https://m.thepaper.cn/newsDetail_forward_31813433" target="_blank" class="news-link">AI时代需要什么样的程序员</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 21时34分</font><br>[澎湃新闻] <a href="https://m.thepaper.cn/newsDetail_forward_31818525" target="_blank" class="news-link">马上评｜“用AI流浪汉骗老公”，家庭恶作剧逾越了边界</a> [12] <font color='grey'>- 21时34分</font></td>
+                </tr>
+            
+                <tr>
+                    <td>4</td>
+                    <td class="word">马斯克 特斯拉</td>
+                    <td class="count">1</td>
+                    <td class="percentage">0.39%</td>
+                    <td class="titles"><div class='new-title'>🆕 [今日头条] <a href="https://www.toutiao.com/trending/7563531261148168255/" target="_blank" class="news-link">马斯克转发浏阳无人机烟花秀新闻</a> [28] <font color='grey'>- 21时34分</font></div></td>
+                </tr>
+            
+            </table>
+        
+            <div class="new-section">
+                <h3>🆕 本次新增热点新闻 (共 3 条)</h3>
+            <h4>今日头条 (1 条)</h4><ul><li><a href="https://www.toutiao.com/trending/7563531261148168255/" target="_blank" class="news-link">马斯克转发浏阳无人机烟花秀新闻</a> [28]</li></ul><h4>bilibili 热搜 (2 条)</h4><ul><li><a href="https://search.bilibili.com/all?keyword=%E7%89%B9%E6%9C%97%E6%99%AE%E6%B3%BD%E8%BF%9E%E6%96%AF%E5%9F%BA%E4%B8%BA%E4%BD%95%E5%86%8D%E5%BA%A6%E4%BA%89%E5%90%B5" target="_blank" class="news-link">特朗普泽连斯基为何再度争吵</a> <font color='red'><strong>[4]</strong></font></li><li><a href="https://search.bilibili.com/all?keyword=DeepSeek%E6%9A%82%E5%88%97AI%E7%82%92%E5%B8%81%E5%A4%A7%E8%B5%9B%E6%A6%9C%E9%A6%96" target="_blank" class="news-link">DeepSeek暂列AI炒币大赛榜首</a> <font color='red'><strong>[5]</strong></font></li></ul></div>
+        </body>
+        </html>
+        
