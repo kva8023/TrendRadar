@@ -1,0 +1,114 @@
+
+        <!DOCTYPE html>
+        <html>
+        <head>
+            <meta charset="UTF-8">
+            <title>频率词统计报告</title>
+            <style>
+                body { font-family: Arial, sans-serif; margin: 20px; }
+                h1, h2 { color: #333; }
+                table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+                th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+                th { background-color: #f2f2f2; }
+                tr:nth-child(even) { background-color: #f9f9f9; }
+                .word { font-weight: bold; }
+                .count { text-align: center; }
+                .percentage { text-align: center; }
+                .titles { max-width: 500px; }
+                .source { color: #666; font-style: italic; }
+                .error { color: #d9534f; }
+                .news-link { 
+                    color: #007bff; 
+                    text-decoration: none; 
+                    border-bottom: 1px dotted #007bff;
+                }
+                .news-link:hover { 
+                    color: #0056b3; 
+                    text-decoration: underline; 
+                }
+                .news-link:visited { 
+                    color: #6f42c1; 
+                }
+                .no-link { 
+                    color: #333; 
+                }
+                .new-title {
+                    background-color: #fff3cd;
+                    border: 1px solid #ffc107;
+                    border-radius: 3px;
+                    padding: 2px 6px;
+                    margin: 2px 0;
+                }
+                .new-section {
+                    background-color: #d1ecf1;
+                    border: 1px solid #bee5eb;
+                    border-radius: 5px;
+                    padding: 10px;
+                    margin-top: 10px;
+                }
+                .new-section h3 {
+                    color: #0c5460;
+                    margin-top: 0;
+                }
+            </style>
+        </head>
+        <body>
+            <h1>频率词统计报告</h1>
+        <p>总标题数: 255</p><p>生成时间: 2025-11-16 23:56:36</p>
+            <table>
+                <tr>
+                    <th>排名</th>
+                    <th>频率词</th>
+                    <th>出现次数</th>
+                    <th>占比</th>
+                    <th>相关标题</th>
+                </tr>
+        
+                <tr>
+                    <td>1</td>
+                    <td class="word">ai 人工智能</td>
+                    <td class="count">4</td>
+                    <td class="percentage">1.57%</td>
+                    <td class="titles">[财联社热门] <a href="https://www.cls.cn/detail/2201789" target="_blank" class="news-link">周末要闻汇总：吴清发声！事关资本市场；华为将发布AI领域突破性技术</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 23时56分</font><br>[财联社热门] <a href="https://www.cls.cn/detail/2201554" target="_blank" class="news-link">AI驱动掀起存储芯片“超级周期”：A股玩家谁能多分一杯羹？</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 23时56分</font><br>[澎湃新闻] <a href="https://m.thepaper.cn/newsDetail_forward_31979142" target="_blank" class="news-link">“AI仿冒名人”营销，有被仿冒专家觉得不可思议：相似度超乎想象</a> [15] <font color='grey'>- 23时56分</font><br>[tieba] <a href="https://tieba.baidu.com/hottopic/browse/hottopic?topic_id=28347153&amp;amp;topic_name=AI%E7%88%86%E6%A2%97%E7%8E%8B%3F%E4%B8%B2%E5%AD%90%E7%BD%97%E4%BC%AF%E7%89%B9%E7%82%B8%E7%BF%BB%E5%85%A8%E5%9C%BA" target="_blank" class="news-link">AI爆梗王?串子罗伯特炸翻全场</a> [24] <font color='grey'>- 23时56分</font></td>
+                </tr>
+            
+                <tr>
+                    <td>2</td>
+                    <td class="word">特朗普</td>
+                    <td class="count">3</td>
+                    <td class="percentage">1.18%</td>
+                    <td class="titles">[凤凰网] <a href="https://news.ifeng.com/c/8oKTyan4q6j" target="_blank" class="news-link">10亿至50亿！特朗普开口了</a> [10] <font color='grey'>- 23时56分</font><br>[澎湃新闻] <a href="https://m.thepaper.cn/newsDetail_forward_31968861" target="_blank" class="news-link">释疑｜爱泼斯坦案2万份新文件，揭了特朗普哪些短？</a> [17] <font color='grey'>- 23时56分</font><br>[今日头条] <a href="https://www.toutiao.com/trending/7573306165895892506/" target="_blank" class="news-link">博主：特朗普正走向众叛亲离</a> [29] <font color='grey'>- 23时56分</font></td>
+                </tr>
+            
+                <tr>
+                    <td>3</td>
+                    <td class="word">马斯克 特斯拉</td>
+                    <td class="count">2</td>
+                    <td class="percentage">0.78%</td>
+                    <td class="titles">[华尔街见闻] <a href="https://wallstreetcn.com/articles/3759471" target="_blank" class="news-link">造芯，马斯克是“来真的”，2026年</a> [7] <font color='grey'>- 23时56分</font><br>[今日头条] <a href="https://www.toutiao.com/trending/7573236848407875114/" target="_blank" class="news-link">特斯拉要求美产汽车避用中国零部件</a> [15] <font color='grey'>- 23时56分</font></td>
+                </tr>
+            
+                <tr>
+                    <td>4</td>
+                    <td class="word">芯片 半导体 光刻机</td>
+                    <td class="count">1</td>
+                    <td class="percentage">0.39%</td>
+                    <td class="titles"><div class='new-title'>🆕 [bilibili 热搜] <a href="https://search.bilibili.com/all?keyword=%E4%B8%96%E7%95%8C%E5%91%A8%E5%88%8A%E4%B9%8B%E8%8D%B7%E5%85%B0%E5%8D%8A%E5%AF%BC%E4%BD%93%E5%8A%AB%E6%A1%88" target="_blank" class="news-link">世界周刊之荷兰半导体劫案</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 23时56分</font></div></td>
+                </tr>
+            
+                <tr>
+                    <td>5</td>
+                    <td class="word">稳定币</td>
+                    <td class="count">1</td>
+                    <td class="percentage">0.39%</td>
+                    <td class="titles">[zhihu] <a href="https://www.zhihu.com/question/1973308098383930254" target="_blank" class="news-link">Tether 推出的离岸人民币稳定币 CNHT0，已正式在 Conflux 网络发行，将产生哪些影响？</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 23时56分</font></td>
+                </tr>
+            
+            </table>
+        
+            <div class="new-section">
+                <h3>🆕 本次新增热点新闻 (共 1 条)</h3>
+            <h4>bilibili 热搜 (1 条)</h4><ul><li><a href="https://search.bilibili.com/all?keyword=%E4%B8%96%E7%95%8C%E5%91%A8%E5%88%8A%E4%B9%8B%E8%8D%B7%E5%85%B0%E5%8D%8A%E5%AF%BC%E4%BD%93%E5%8A%AB%E6%A1%88" target="_blank" class="news-link">世界周刊之荷兰半导体劫案</a> <font color='red'><strong>[5]</strong></font></li></ul></div>
+        </body>
+        </html>
+        
